@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>World Countries Data</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <link rel="stylesheet" href="C:\Users\Tansukh\Desktop\projectworldcountriesdata\projectcountriesdata.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="header-taitle">World Countries Data</h1>
+            <p class="count-of-countries">Currently, we have 250 countries</p>
+        </div>
+        <div class="d-flex">
+            <div class="graph-buttn">
+                <button class="primary-btn" onclick="addTopCountriesPopulation()">population</button>
+                <button class="primary-btn" onclick="sortLanguage()">languages</button>
+            </div>
+            <div>
+                <h5 class="graph-title" id="heading">please click Any Button To See data</h5>
+            </div>
+        </div>
+        <div class="graph-table">
+            <table class="table-container" id="countries">
+                
+            </table>
+        </div>
+       
+        <script  src="./projectcountriesdata.js"></script>
+    </body>
+</html>
